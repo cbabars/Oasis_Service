@@ -1,0 +1,67 @@
+.fixexHeight {
+    background: #fff!important;
+    border-bottom: #EFEFEF solid 1px!important;
+}
+.navbar-expand-lg .navbar-nav {
+    font-weight: 700;
+    font-size: smaller;
+}
+.dropdown-item {
+    font-size: smaller;
+    font-weight: 500;
+}
+
+// footer
+.footerBgColor {
+    background: #2e2e2e;
+}
+.thin_line {
+    height: 1px;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-top: -31px;
+    background: #999;
+}
+h6 {
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-right: 20px;
+    position: relative;
+    float: left;
+    z-index: 99999;
+    background: #2e2e2e;
+}
+.customFloat {
+    float: left;
+}
+.copyRight {
+    background: #272727;
+    color: #999;
+}
+
+footer .tagcloud a, footer .tabbable .nav-tabs li, footer .tabbable .nav-tabs li {
+    background: #272727;
+}
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+footer .tagcloud a:hover, .footer_social_bar, .blog-article dt .date.box, #portfolio-filter ul li.active, #faq-filter ul li:hover, #faq-filter ul li.active, #portfolio-filter ul li:hover, .portfolio-item .link:hover {
+    background: #009dcd;
+}
+footer .tagcloud a {
+    color: inherit;
+    padding: 8px 10px;
+    font-size: 11px !important;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+    color: #ccc;
+}
+.tagcloud {
+    width: 100%;
+    float: left;
+}
