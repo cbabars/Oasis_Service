@@ -82,3 +82,55 @@
     background: #009dcd;
     border: 2px solid #009dcd;
 }
+.titleBorder {
+    border-bottom: 1px solid #ece7e7;
+    padding-bottom: 10px;
+}
+ p a {
+    text-align: right;
+    color: #f79633;
+}
+
+.card {
+    background: black;
+    border: 1px solid white;
+}
+
+.card img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card:hover img {
+    opacity: 0.3;
+  }
+  
+  .card:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  .text:hover {
+    background: #009dcd;
+  }
