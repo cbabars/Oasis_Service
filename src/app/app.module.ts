@@ -4,7 +4,8 @@ import { GoTopButtonModule } from 'ng2-go-top-button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent, AboutUsComponent } from './component';
+import { HomePageComponent, AboutUsComponent, IndustriesComponent } from './component';
+
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { HomePageComponent, AboutUsComponent } from './component';
   declarations: [
     AppComponent,
     HomePageComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    IndustriesComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
