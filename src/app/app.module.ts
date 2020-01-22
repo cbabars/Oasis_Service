@@ -4,7 +4,17 @@ import { GoTopButtonModule } from 'ng2-go-top-button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomePageComponent, AboutUsComponent, AutomotiveComponent, AerospaceComponent, HeavyEngineeringComponent } from './component';
+import {
+  HomePageComponent,
+  AboutUsComponent,
+  AutomotiveComponent,
+  AerospaceComponent,
+  HeavyEngineeringComponent,
+  CareersComponent,
+  AddressComponent,
+  ServiceRequestComponent
+} from './component';
+
 
 
 @NgModule({
@@ -20,7 +30,10 @@ import { HomePageComponent, AboutUsComponent, AutomotiveComponent, AerospaceComp
     AboutUsComponent,
     AutomotiveComponent,
     AerospaceComponent,
-    HeavyEngineeringComponent
+    HeavyEngineeringComponent,
+    CareersComponent,
+    AddressComponent,
+    ServiceRequestComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
