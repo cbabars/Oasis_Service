@@ -18,51 +18,87 @@ import {
 const routes: Routes = [
   {
     path: '',
-    component: HomePageComponent
+    component: HomePageComponent,
+    data: {
+      title: 'Welcome :: Oasis Technologies'
+    }
   },
   {
     path: 'aboutUS',
-    component: AboutUsComponent
+    component: AboutUsComponent,
+    data: {
+      title: 'Oasis | About Us'
+    }
   },
   {
     path: 'automotive',
-    component: AutomotiveComponent
+    component: AutomotiveComponent,
+    data: {
+      title: 'Oasis | Automotive'
+    }
   },
   {
     path: 'aerospace',
-    component: AerospaceComponent
+    component: AerospaceComponent,
+    data: {
+      title: 'Oasis | Aerospace'
+    }
   },
   {
     path: 'heavyEngineering',
-    component: HeavyEngineeringComponent
+    component: HeavyEngineeringComponent,
+    data: {
+      title: 'Oasis | Heavy Engineering'
+    }
   },
   {
     path: 'careers',
-    component: CareersComponent
+    component: CareersComponent,
+    data: {
+      title: 'Oasis | Careers'
+    }
   },
   {
     path: 'address',
-    component: AddressComponent
+    component: AddressComponent,
+    data: {
+      title: 'Oasis | Address'
+    }
   },
   {
     path: 'serviceRequest',
-    component: ServiceRequestComponent
+    component: ServiceRequestComponent,
+    data: {
+      title: 'Oasis | Request For Services'
+    }
   },
   {
     path: 'productEng',
-    component: ProductEngComponent
+    component: ProductEngComponent,
+    data: {
+      title: 'Oasis | Product Engineering'
+    }
   },
   {
     path: 'manufacturingEng',
-    component: ManufacturingEngComponent
+    component: ManufacturingEngComponent,
+    data: {
+      title: 'Oasis | Manufacturing Engineering'
+    }
   },
   {
-    path: 'genralEng',
-    component: GenralEngComponent
+    path: 'generalEng',
+    component: GenralEngComponent,
+    data: {
+      title: 'Oasis | General Engineering'
+    }
   },
   {
     path: 'staffingSolutions',
-    component: StaffingSolutionsComponent
+    component: StaffingSolutionsComponent,
+    data: {
+      title: 'Oasis | Staffing Solutions - US'
+    }
   },
   {
     path: '**',

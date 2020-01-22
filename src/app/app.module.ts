@@ -1,9 +1,11 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { GoTopButtonModule } from 'ng2-go-top-button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import 'rxjs-compat';
+
 import {
   HomePageComponent,
   AboutUsComponent,
@@ -42,7 +44,7 @@ import {
     GenralEngComponent,
     StaffingSolutionsComponent
   ],
-  providers: [],
+  providers: [Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
