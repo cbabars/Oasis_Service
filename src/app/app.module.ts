@@ -12,9 +12,12 @@ import {
   HeavyEngineeringComponent,
   CareersComponent,
   AddressComponent,
-  ServiceRequestComponent
+  ServiceRequestComponent,
+  ProductEngComponent,
+  ManufacturingEngComponent,
+  GenralEngComponent,
+  StaffingSolutionsComponent
 } from './component';
-
 
 
 @NgModule({
@@ -33,7 +36,11 @@ import {
     HeavyEngineeringComponent,
     CareersComponent,
     AddressComponent,
-    ServiceRequestComponent
+    ServiceRequestComponent,
+    ProductEngComponent,
+    ManufacturingEngComponent,
+    GenralEngComponent,
+    StaffingSolutionsComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

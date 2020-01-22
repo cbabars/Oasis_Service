@@ -8,7 +8,11 @@ import {
   HeavyEngineeringComponent,
   CareersComponent,
   AddressComponent,
-  ServiceRequestComponent
+  ServiceRequestComponent,
+  ProductEngComponent,
+  ManufacturingEngComponent,
+  GenralEngComponent,
+  StaffingSolutionsComponent
 } from './component';
 
 const routes: Routes = [
@@ -43,6 +47,22 @@ const routes: Routes = [
   {
     path: 'serviceRequest',
     component: ServiceRequestComponent
+  },
+  {
+    path: 'productEng',
+    component: ProductEngComponent
+  },
+  {
+    path: 'manufacturingEng',
+    component: ManufacturingEngComponent
+  },
+  {
+    path: 'genralEng',
+    component: GenralEngComponent
+  },
+  {
+    path: 'staffingSolutions',
+    component: StaffingSolutionsComponent
   },
   {
     path: '**',

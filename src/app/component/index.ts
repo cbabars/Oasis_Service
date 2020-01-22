@@ -6,3 +6,7 @@ export * from './heavy-engineering/heavy-engineering.component';
 export * from './careers/careers.component';
 export * from './address/address.component';
 export * from './service-request/service-request.component';
+export * from './product-eng/product-eng.component';
+export * from './manufacturing-eng/manufacturing-eng.component';
+export * from './genral-eng/genral-eng.component';
+export * from './staffing-solutions/staffing-solutions.component';
