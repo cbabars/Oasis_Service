@@ -127,13 +127,14 @@ a {
     opacity: 1;
   }
   
-  .text {
+  .text a {
     border: 1px solid white;
     color: white;
     font-size: 16px;
     padding: 4px 8px;
     cursor: pointer;
+    text-decoration: none;
   }
-  .text:hover {
+  .text a:hover {
     background: #009dcd;
   }
